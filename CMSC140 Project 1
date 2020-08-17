@@ -1,0 +1,38 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    cout << "****A Robotic Script****" << endl;  //Title Of Script
+    cout << "Welcome to MC! My name is babuksa. Can I get your name?" << endl; //Asking for name
+    string userName; //catch a random name
+    
+    int age, firstNumber, secondNumber; //Finding out age, and two respective numbers
+    getline (cin,userName); //Getting the name
+    
+    cout << "Nice to meet ya,  " << userName << "! Let's play a litle game, shall we? \n"; //Play a small game
+    cout << "Give me an age of an human or pet, just any number you think can think of. \n"; //Input a number
+    getline(cin, age);
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+system ("pause");
+return 0;    
+}
+
+http://cpp.sh/8actn6
